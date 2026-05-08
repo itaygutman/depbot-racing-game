@@ -10,6 +10,8 @@ const App: React.FC = () => {
           makeDefault
           position={[0, 0, 5]}
           fov={75} // Add missing required prop
+          near={0.1} // Add required prop
+          far={1000} // Add required prop
         />
         {/* Other components go here */}
       </Suspense>

@@ -14,3 +14,9 @@ const exampleFunction = ({ actionInputMap, ...rest }: TState): Omit<TState, "act
 const KeyInput = () => <div>Key Input</div>;
 export const ExampleComponent = () => <KeyInput />;
 
+// Adding declaration for ActionInputMap to avoid TS errors
+declare global {
+  interface ActionInputMap {
+    [key: string]: any;
+  }
+}

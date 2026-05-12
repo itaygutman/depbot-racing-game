@@ -18,7 +18,7 @@
     "inter-ui": "^3.19.3",
     "leva": "^0.9.21",
     "lodash-es": "^4.17.21",
-    "react": "^18.0.0",
+    "react": "^19.2.6",
     "react-colorful": "^5.5.1",
     "react-dom": "^18.0.0",
     "three": "^0.139.0",

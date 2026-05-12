@@ -1,11 +1,8 @@
-export * from './Clock'
-export * from './Speed'
-export * from './Editor'
-export * from './Finished'
-export * from './Help'
-export * from './Minimap'
-export * from './Intro'
-export * from './LeaderBoard'
-export * from './Auth'
-export * from './Checkpoint'
-export * from './PickColor'
+// Ensure imports are modules for the index file
+import { Scores } from './LeaderBoard';
+import { KeyInput } from './Keys';
+import { MinimapTexture } from './Minimap';
+import { PickColor } from './PickColor';
+import { Gauge } from './Speed/Gauge';
+
+// ...any other exports necessary.

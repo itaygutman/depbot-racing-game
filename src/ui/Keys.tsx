@@ -1,9 +1,12 @@
 // Fixing actionInputMap related error
 // Ensure the TState type includes actionInputMap
 
+type ActionInputMap = { /* define ActionInputMap here */ }; // Placeholder definition, adjust as necessary
+
 type TState = {
     actionInputMap: ActionInputMap;
     // other properties...
+    chassisBody?: RefObject<Group>;
 };
 
 // Updating return type and ensuring it conforms to TState

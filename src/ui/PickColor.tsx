@@ -1,4 +1,6 @@
 // Fixing parameters to match Pick<TState>
+type ColorPickerBaseProps<T> = { /* define ColorPickerBaseProps here */ }; // Placeholder definition
+
 const PickColor = (props: Partial<ColorPickerBaseProps<string>>): JSX.Element => {
     return <div>Color Picker</div>;
 };
